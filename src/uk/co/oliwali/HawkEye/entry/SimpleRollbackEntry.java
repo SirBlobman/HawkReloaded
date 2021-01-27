@@ -1,12 +1,13 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
-import uk.co.oliwali.HawkEye.DataType;
 
-import java.sql.Timestamp;
+import uk.co.oliwali.HawkEye.DataType;
 
 /**
  * Used for simple rollbacks - sets the block to air regardless of the data

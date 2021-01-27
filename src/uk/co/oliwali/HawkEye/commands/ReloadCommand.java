@@ -2,6 +2,7 @@ package uk.co.oliwali.HawkEye.commands;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.HandlerList;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.HawkEye;
 import uk.co.oliwali.HawkEye.listeners.HawkEyeListener;

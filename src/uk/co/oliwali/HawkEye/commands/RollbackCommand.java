@@ -1,7 +1,11 @@
 package uk.co.oliwali.HawkEye.commands;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.PlayerSession;
 import uk.co.oliwali.HawkEye.Rollback.RollbackType;
@@ -11,9 +15,6 @@ import uk.co.oliwali.HawkEye.callbacks.RollbackCallback;
 import uk.co.oliwali.HawkEye.database.userqueries.Query.SearchDir;
 import uk.co.oliwali.HawkEye.database.userqueries.SearchQuery;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Rolls back actions according to the player's specified input.

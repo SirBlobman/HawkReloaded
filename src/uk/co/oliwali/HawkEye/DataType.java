@@ -1,13 +1,20 @@
 package uk.co.oliwali.HawkEye;
 
-import uk.co.oliwali.HawkEye.entry.*;
-import uk.co.oliwali.HawkEye.entry.containerentries.ContainerExtract;
-import uk.co.oliwali.HawkEye.entry.containerentries.ContainerInsert;
-
 import java.lang.reflect.Constructor;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;
+
+import uk.co.oliwali.HawkEye.entry.BlockChangeEntry;
+import uk.co.oliwali.HawkEye.entry.BlockEntry;
+import uk.co.oliwali.HawkEye.entry.DataEntry;
+import uk.co.oliwali.HawkEye.entry.EntityEntry;
+import uk.co.oliwali.HawkEye.entry.HangingEntry;
+import uk.co.oliwali.HawkEye.entry.ItemFrameModifyEntry;
+import uk.co.oliwali.HawkEye.entry.SignEntry;
+import uk.co.oliwali.HawkEye.entry.SimpleRollbackEntry;
+import uk.co.oliwali.HawkEye.entry.containerentries.ContainerExtract;
+import uk.co.oliwali.HawkEye.entry.containerentries.ContainerInsert;
 
 /**
  * Enumeration class representing all the different actions that HawkEye can handle

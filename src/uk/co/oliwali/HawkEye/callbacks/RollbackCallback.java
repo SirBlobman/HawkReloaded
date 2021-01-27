@@ -1,12 +1,12 @@
 package uk.co.oliwali.HawkEye.callbacks;
 
+import java.util.List;
+
 import uk.co.oliwali.HawkEye.PlayerSession;
 import uk.co.oliwali.HawkEye.Rollback;
 import uk.co.oliwali.HawkEye.Rollback.RollbackType;
 import uk.co.oliwali.HawkEye.entry.DataEntry;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.List;
 
 /**
  * Implementation of BaseCallback for use in rollback commands

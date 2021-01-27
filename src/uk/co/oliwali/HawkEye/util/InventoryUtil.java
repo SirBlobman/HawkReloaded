@@ -1,18 +1,25 @@
 package uk.co.oliwali.HawkEye.util;
 
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 import org.bukkit.Location;
-import org.bukkit.block.*;
+import org.bukkit.block.BlockState;
+import org.bukkit.block.Chest;
+import org.bukkit.block.Dispenser;
+import org.bukkit.block.DoubleChest;
+import org.bukkit.block.Dropper;
+import org.bukkit.block.Furnace;
+import org.bukkit.block.Hopper;
 import org.bukkit.inventory.InventoryHolder;
 import org.bukkit.inventory.ItemStack;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.database.Consumer;
 import uk.co.oliwali.HawkEye.entry.containerentries.ContainerEntry;
 import uk.co.oliwali.HawkEye.entry.containerentries.ContainerExtract;
 import uk.co.oliwali.HawkEye.itemserializer.ItemSerializer;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
 
 public class InventoryUtil {
 

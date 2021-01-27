@@ -1,14 +1,14 @@
 package uk.co.oliwali.HawkEye.database.userqueries;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
 import uk.co.oliwali.HawkEye.SearchParser;
 import uk.co.oliwali.HawkEye.callbacks.DeleteCallback;
 import uk.co.oliwali.HawkEye.database.DataManager;
 import uk.co.oliwali.HawkEye.querybuilder.QueryBuilder;
 import uk.co.oliwali.HawkEye.util.Config;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 
 /**
  * @author bob7l

@@ -1,11 +1,12 @@
 package uk.co.oliwali.HawkEye.itemserializer.entries;
 
+import java.util.List;
+
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+
 import uk.co.oliwali.HawkEye.util.SerializeUtil;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.List;
 
 /**
  * @author bob7l

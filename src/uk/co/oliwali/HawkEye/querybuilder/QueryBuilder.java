@@ -1,14 +1,14 @@
 package uk.co.oliwali.HawkEye.querybuilder;
 
-import uk.co.oliwali.HawkEye.querybuilder.filters.Filter;
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.ListIterator;
+
+import uk.co.oliwali.HawkEye.querybuilder.filters.Filter;
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * @author bob7l

@@ -1,8 +1,9 @@
 package uk.co.oliwali.HawkEye.listeners;
 
-import com.dthielke.herochat.ChannelChatEvent;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
+
+import com.dthielke.herochat.ChannelChatEvent;
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.HawkEvent;
 import uk.co.oliwali.HawkEye.database.Consumer;

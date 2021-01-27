@@ -1,14 +1,15 @@
 package uk.co.oliwali.HawkEye.worldedit;
 
+import org.bukkit.Location;
+import org.bukkit.World;
+import org.bukkit.block.BlockState;
+
 import com.sk89q.worldedit.Vector;
 import com.sk89q.worldedit.blocks.BaseBlock;
 import com.sk89q.worldedit.bukkit.BukkitWorld;
 import com.sk89q.worldedit.extension.platform.Actor;
 import com.sk89q.worldedit.extent.Extent;
 import com.sk89q.worldedit.extent.logging.AbstractLoggingExtent;
-import org.bukkit.Location;
-import org.bukkit.World;
-import org.bukkit.block.BlockState;
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.database.Consumer;
 import uk.co.oliwali.HawkEye.entry.BlockChangeEntry;

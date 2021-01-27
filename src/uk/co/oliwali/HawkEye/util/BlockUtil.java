@@ -1,6 +1,5 @@
 package uk.co.oliwali.HawkEye.util;
 
-import org.apache.commons.lang.WordUtils;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
@@ -8,6 +7,8 @@ import org.bukkit.block.BlockState;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.material.Attachable;
 import org.bukkit.material.MaterialData;
+
+import org.apache.commons.lang.WordUtils;
 import uk.co.oliwali.HawkEye.HawkEye;
 
 /**

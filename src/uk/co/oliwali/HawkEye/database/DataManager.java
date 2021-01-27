@@ -1,11 +1,17 @@
 package uk.co.oliwali.HawkEye.database;
 
+import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 import org.bukkit.Bukkit;
+
 import uk.co.oliwali.HawkEye.HawkEye;
 import uk.co.oliwali.HawkEye.util.Config;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.sql.*;
 
 /**
  * Handler for everything to do with the database.

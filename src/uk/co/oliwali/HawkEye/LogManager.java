@@ -1,10 +1,5 @@
 package uk.co.oliwali.HawkEye;
 
-import org.bukkit.command.CommandSender;
-import uk.co.oliwali.HawkEye.entry.DataEntry;
-import uk.co.oliwali.HawkEye.util.Config;
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
@@ -12,6 +7,12 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
+
+import org.bukkit.command.CommandSender;
+
+import uk.co.oliwali.HawkEye.entry.DataEntry;
+import uk.co.oliwali.HawkEye.util.Config;
+import uk.co.oliwali.HawkEye.util.Util;
 
 public class LogManager {
 

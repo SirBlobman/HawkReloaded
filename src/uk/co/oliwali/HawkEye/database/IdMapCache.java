@@ -1,9 +1,9 @@
 package uk.co.oliwali.HawkEye.database;
 
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.util.HashMap;
 import java.util.Map;
+
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * @author bob7l

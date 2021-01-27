@@ -1,5 +1,7 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+
 import org.bukkit.Art;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -9,12 +11,11 @@ import org.bukkit.entity.ItemFrame;
 import org.bukkit.entity.Painting;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.itemserializer.ItemSerializer;
 import uk.co.oliwali.HawkEye.util.BlockUtil;
 import uk.co.oliwali.HawkEye.util.EntityUtil;
-
-import java.sql.Timestamp;
 /**
  * Represents a hanging-type entry in the database
  * Rollbacks will set the block to the data value

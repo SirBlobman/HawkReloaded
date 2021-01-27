@@ -2,6 +2,7 @@ package uk.co.oliwali.HawkEye.itemserializer.entries;
 
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+
 import uk.co.oliwali.HawkEye.util.SerializeUtil;
 
 /**

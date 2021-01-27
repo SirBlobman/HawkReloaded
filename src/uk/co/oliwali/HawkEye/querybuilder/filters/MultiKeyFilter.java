@@ -1,9 +1,9 @@
 package uk.co.oliwali.HawkEye.querybuilder.filters;
 
-import uk.co.oliwali.HawkEye.querybuilder.QueryBuilder;
-
 import java.util.LinkedList;
 import java.util.List;
+
+import uk.co.oliwali.HawkEye.querybuilder.QueryBuilder;
 
 /**
  * @author bob7l

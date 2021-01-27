@@ -1,14 +1,33 @@
 package uk.co.oliwali.HawkEye;
 
+import java.util.Arrays;
+
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import uk.co.oliwali.HawkEye.commands.*;
-import uk.co.oliwali.HawkEye.util.Util;
 
-import java.util.Arrays;
+import uk.co.oliwali.HawkEye.commands.BaseCommand;
+import uk.co.oliwali.HawkEye.commands.DeleteCommand;
+import uk.co.oliwali.HawkEye.commands.HelpCommand;
+import uk.co.oliwali.HawkEye.commands.HereCommand;
+import uk.co.oliwali.HawkEye.commands.InfoCommand;
+import uk.co.oliwali.HawkEye.commands.PageCommand;
+import uk.co.oliwali.HawkEye.commands.PreviewApplyCommand;
+import uk.co.oliwali.HawkEye.commands.PreviewCancelCommand;
+import uk.co.oliwali.HawkEye.commands.PreviewCommand;
+import uk.co.oliwali.HawkEye.commands.RebuildCommand;
+import uk.co.oliwali.HawkEye.commands.ReloadCommand;
+import uk.co.oliwali.HawkEye.commands.RollbackCommand;
+import uk.co.oliwali.HawkEye.commands.SearchCommand;
+import uk.co.oliwali.HawkEye.commands.ToolBindCommand;
+import uk.co.oliwali.HawkEye.commands.ToolCommand;
+import uk.co.oliwali.HawkEye.commands.ToolResetCommand;
+import uk.co.oliwali.HawkEye.commands.TptoCommand;
+import uk.co.oliwali.HawkEye.commands.UndoCommand;
+import uk.co.oliwali.HawkEye.commands.WriteLogCommand;
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * @author bob7l

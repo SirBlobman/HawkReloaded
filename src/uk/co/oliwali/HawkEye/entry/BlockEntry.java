@@ -1,12 +1,13 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.util.BlockUtil;
-
-import java.sql.Timestamp;
 
 /**
  * Represents a block-type entry in the database

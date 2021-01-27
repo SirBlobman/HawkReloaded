@@ -1,11 +1,5 @@
 package uk.co.oliwali.HawkEye.database;
 
-import org.bukkit.Bukkit;
-import uk.co.oliwali.HawkEye.DataType;
-import uk.co.oliwali.HawkEye.HawkEye;
-import uk.co.oliwali.HawkEye.util.Config;
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.text.SimpleDateFormat;
@@ -13,6 +7,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
+
+import org.bukkit.Bukkit;
+
+import uk.co.oliwali.HawkEye.DataType;
+import uk.co.oliwali.HawkEye.HawkEye;
+import uk.co.oliwali.HawkEye.util.Config;
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * DataBase cleansing utility.

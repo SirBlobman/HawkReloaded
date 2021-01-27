@@ -1,12 +1,12 @@
 package uk.co.oliwali.HawkEye.database;
 
+import java.sql.Connection;
+import java.sql.SQLException;
+
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
 import uk.co.oliwali.HawkEye.util.Config;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.sql.Connection;
-import java.sql.SQLException;
 
 /**
  * Controls MySQL connection pool using Hikari
@@ -39,6 +39,9 @@ public class ConnectionManager implements AutoCloseable {
         config.addDataSourceProperty("prepStmtCacheSize", "275");
         config.addDataSourceProperty("prepStmtCacheSqlLimit", "2048");
         config.addDataSourceProperty("cachePrepStmts", "true");
+
+        config.addDataSourceProperty("characterEncoding","utf8");
+        config.addDataSourceProperty("useUnicode","true");
 
         config.setAutoCommit(false);
 

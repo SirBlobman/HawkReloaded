@@ -1,6 +1,7 @@
 package uk.co.oliwali.HawkEye.commands;
 
 import org.bukkit.command.CommandSender;
+
 import uk.co.oliwali.HawkEye.HawkCommand;
 import uk.co.oliwali.HawkEye.util.Util;
 

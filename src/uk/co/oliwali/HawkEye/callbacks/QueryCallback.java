@@ -1,11 +1,12 @@
 package uk.co.oliwali.HawkEye.callbacks;
 
+import java.util.List;
+
 import org.bukkit.command.CommandSender;
+
 import uk.co.oliwali.HawkEye.PlayerSession;
 import uk.co.oliwali.HawkEye.entry.DataEntry;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.List;
 
 /**
  * @author bob7l

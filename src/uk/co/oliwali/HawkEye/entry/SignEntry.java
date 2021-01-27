@@ -1,19 +1,20 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
+
 import uk.co.oliwali.HawkEye.Base64;
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Represents a sign entry in the database

@@ -1,11 +1,12 @@
 package uk.co.oliwali.HawkEye.entry.containerentries;
 
+import java.sql.Timestamp;
+
 import org.bukkit.Location;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import uk.co.oliwali.HawkEye.DataType;
 
-import java.sql.Timestamp;
+import uk.co.oliwali.HawkEye.DataType;
 
 /**
  * @author bob7l

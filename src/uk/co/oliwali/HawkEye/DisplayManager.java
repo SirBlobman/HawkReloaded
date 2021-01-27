@@ -1,9 +1,9 @@
 package uk.co.oliwali.HawkEye;
 
+import java.util.List;
+
 import uk.co.oliwali.HawkEye.entry.DataEntry;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.List;
 
 /**
  * Manages displaying of search results. Includes utilities for handling pages of results

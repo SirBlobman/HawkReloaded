@@ -1,8 +1,13 @@
 package uk.co.oliwali.HawkEye.itemserializer;
 
-import org.apache.commons.lang.StringUtils;
 import org.bukkit.inventory.ItemStack;
-import uk.co.oliwali.HawkEye.itemserializer.entries.*;
+
+import org.apache.commons.lang.StringUtils;
+import uk.co.oliwali.HawkEye.itemserializer.entries.CountEntry;
+import uk.co.oliwali.HawkEye.itemserializer.entries.EnchantEntry;
+import uk.co.oliwali.HawkEye.itemserializer.entries.LoreMetaEntry;
+import uk.co.oliwali.HawkEye.itemserializer.entries.NameMetaEntry;
+import uk.co.oliwali.HawkEye.itemserializer.entries.SerializerEntry;
 import uk.co.oliwali.HawkEye.util.BlockUtil;
 import uk.co.oliwali.HawkEye.util.SerializeUtil;
 

@@ -1,14 +1,14 @@
 package uk.co.oliwali.HawkEye.database;
 
-import uk.co.oliwali.HawkEye.entry.DataEntry;
-import uk.co.oliwali.HawkEye.util.Config;
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.io.Closeable;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
+
+import uk.co.oliwali.HawkEye.entry.DataEntry;
+import uk.co.oliwali.HawkEye.util.Config;
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * @author bob7l

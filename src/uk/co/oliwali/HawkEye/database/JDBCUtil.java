@@ -19,12 +19,12 @@ package uk.co.oliwali.HawkEye.database;
  * under the License.                                           *
  ****************************************************************/
 
-import uk.co.oliwali.HawkEye.util.Util;
-
 import java.sql.DatabaseMetaData;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Locale;
+
+import uk.co.oliwali.HawkEye.util.Util;
 
 /**
  * <p>Helper class for managing common JDBC tasks.</p>

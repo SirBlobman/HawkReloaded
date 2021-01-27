@@ -1,18 +1,19 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+import java.util.Calendar;
+
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;
 import org.bukkit.block.Sign;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.InventoryHolder;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.undoData.UndoBlock;
 import uk.co.oliwali.HawkEye.undoData.UndoChest;
 import uk.co.oliwali.HawkEye.undoData.UndoSign;
-
-import java.sql.Timestamp;
-import java.util.Calendar;
 
 /**
  * Represents a HawkEye database entry

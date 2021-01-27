@@ -1,5 +1,10 @@
 package uk.co.oliwali.HawkEye.database.userqueries;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+import java.util.List;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.HawkEye;
 import uk.co.oliwali.HawkEye.SearchParser;
@@ -12,11 +17,6 @@ import uk.co.oliwali.HawkEye.querybuilder.filters.MultiKeyFilter;
 import uk.co.oliwali.HawkEye.querybuilder.filters.RelationalFilter;
 import uk.co.oliwali.HawkEye.util.Config;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author bob7l

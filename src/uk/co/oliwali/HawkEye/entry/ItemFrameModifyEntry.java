@@ -1,17 +1,18 @@
 package uk.co.oliwali.HawkEye.entry;
 
+import java.sql.Timestamp;
+import java.util.List;
+
 import org.bukkit.Location;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.ItemFrame;
 import org.bukkit.inventory.ItemStack;
+
 import uk.co.oliwali.HawkEye.DataType;
 import uk.co.oliwali.HawkEye.itemserializer.ItemSerializer;
 import uk.co.oliwali.HawkEye.util.BlockUtil;
 import uk.co.oliwali.HawkEye.util.EntityUtil;
-
-import java.sql.Timestamp;
-import java.util.List;
 
 /**
  * @author bob7l

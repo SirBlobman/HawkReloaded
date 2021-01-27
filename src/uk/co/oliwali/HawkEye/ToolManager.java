@@ -1,5 +1,8 @@
 package uk.co.oliwali.HawkEye;
 
+import java.util.Arrays;
+import java.util.EnumSet;
+
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -8,15 +11,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.util.Vector;
+
 import uk.co.oliwali.HawkEye.callbacks.SearchCallback;
 import uk.co.oliwali.HawkEye.database.userqueries.Query.SearchDir;
 import uk.co.oliwali.HawkEye.database.userqueries.SearchQuery;
 import uk.co.oliwali.HawkEye.util.BlockUtil;
 import uk.co.oliwali.HawkEye.util.Config;
 import uk.co.oliwali.HawkEye.util.Util;
-
-import java.util.Arrays;
-import java.util.EnumSet;
 
 /**
  * Contains methods for controlling the HawkEye tool

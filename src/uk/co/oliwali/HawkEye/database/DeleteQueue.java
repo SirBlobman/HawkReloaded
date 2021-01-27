@@ -1,9 +1,9 @@
 package uk.co.oliwali.HawkEye.database;
 
-import uk.co.oliwali.HawkEye.entry.DataEntry;
-
 import java.util.List;
 import java.util.concurrent.LinkedBlockingQueue;
+
+import uk.co.oliwali.HawkEye.entry.DataEntry;
 
 /**
  * @author bob7l

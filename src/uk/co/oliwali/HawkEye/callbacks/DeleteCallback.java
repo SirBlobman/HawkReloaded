@@ -1,6 +1,7 @@
 package uk.co.oliwali.HawkEye.callbacks;
 
 import org.bukkit.command.CommandSender;
+
 import uk.co.oliwali.HawkEye.PlayerSession;
 import uk.co.oliwali.HawkEye.util.Util;
 

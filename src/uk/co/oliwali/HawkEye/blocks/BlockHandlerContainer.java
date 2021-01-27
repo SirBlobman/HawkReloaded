@@ -1,6 +1,21 @@
 package uk.co.oliwali.HawkEye.blocks;
 
-import uk.co.oliwali.HawkEye.blocks.blockhandlers.*;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.AirHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.AttachedBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.BasicBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.BedBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.BlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.ContainerBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.DefaultBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.DoorBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.DoublePlantHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.LeafBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.PistonBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.PlantHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.SignBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.TallPlantHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.TopBlockHandler;
+import uk.co.oliwali.HawkEye.blocks.blockhandlers.VineBlockHandler;
 
 public class BlockHandlerContainer {
 

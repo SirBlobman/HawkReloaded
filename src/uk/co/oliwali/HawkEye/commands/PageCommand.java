@@ -1,6 +1,7 @@
 package uk.co.oliwali.HawkEye.commands;
 
 import org.bukkit.command.CommandSender;
+
 import uk.co.oliwali.HawkEye.DisplayManager;
 import uk.co.oliwali.HawkEye.SessionManager;
 import uk.co.oliwali.HawkEye.util.Util;

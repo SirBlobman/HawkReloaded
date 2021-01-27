@@ -1,10 +1,15 @@
 package uk.co.oliwali.HawkEye.util;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 import org.bukkit.Material;
 import org.bukkit.configuration.Configuration;
-import uk.co.oliwali.HawkEye.HawkEye;
 
-import java.util.*;
+import uk.co.oliwali.HawkEye.HawkEye;
 
 /**
  * Configuration manager for HawkEye.
